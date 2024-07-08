@@ -1,0 +1,128 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.actions button {
+  margin-left: 50px;
+  border-radius: 5px;
+  padding: 2px 5px;
+  border: none;
+}
+
+.new {
+  background-color:aqua;
+}
+
+.complete {
+  background-color:green;
+}
+
+.uncomplete {
+  background-color:red;
+}
+/* tasks */
+.tasks {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-around; */
+  /*background-color: rgb(250, 227, 227);/*D9D9D9*/
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.task {
+  background-color: rgb(167, 191, 176);
+  border-radius:5px;
+  width: 23%;
+  padding-left: 5px;
+  margin-top: 10px;
+  position: relative;
+}
+.task h3 {
+  color:rgb(8, 63, 40);
+}
+
+.date {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+}
+
+
+.item-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-action {
+  top:5px;
+  right: 5px;
+}
+
+.due {
+  text-align: right;
+  padding-right: 5px;
+  font-size: 11px;
+}
+
+.item-top p {
+  font-size: 11px;
+}
+
+.form-pop{
+  background-color:azure;
+  align-items:center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: auto;
+  z-index: 10;
+}
+.form-pop form {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.form-pop h2 {
+  text-align: center;
+}
+.form-pop form button {
+  background-color: aquamarine;
+  font-size: 15px;
+  margin-top: 10px;
+  align-items:center;
+  width: 80%;
+  padding: 5;
+}
+.add-btn {
+  margin: 0;
+  padding: 0;
+  margin-left: -50px;
+}
+
+/*Icon Actions*/
+.icon-action {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+}
