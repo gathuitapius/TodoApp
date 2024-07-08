@@ -1,5 +1,5 @@
 ### Todo App
-!([images/completedInterface.png](https://github.com/gathuitapius/TodoApp/blob/main/images/completedInterface.PNG))
+![images/completedInterface.png](https://github.com/gathuitapius/TodoApp/blob/main/images/completedInterface.PNG)
 ## Technologies
 ```
 React - front-end
