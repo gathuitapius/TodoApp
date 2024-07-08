@@ -1,5 +1,5 @@
 ### Todo App
-## COmplete Tasks
+## Complete Tasks
 ![images/completedInterface.png](https://github.com/gathuitapius/TodoApp/blob/main/images/completedInterface.PNG)
 
 ## Interface for Uncomplete Tasks
