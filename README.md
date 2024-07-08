@@ -1,5 +1,9 @@
 ### Todo App
+## COmplete Tasks
 ![images/completedInterface.png](https://github.com/gathuitapius/TodoApp/blob/main/images/completedInterface.PNG)
+
+## Interface for Uncomplete Tasks
+![images/uncompletedTasks.png](https://github.com/gathuitapius/TodoApp/blob/main/images/uncompletedTasks.PNG)
 ## Technologies
 ```
 React - front-end
